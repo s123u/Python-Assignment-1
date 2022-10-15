@@ -2,6 +2,10 @@
 
 
 
-my_tuple=["MY NAME IS SUJAL"]
-result=list(map(lower(),my_tuple))
-print(list(result))
+def mytuple(s):
+  return  str(s).lower()
+ 
+mystr =["MY NAME IS SUJAL"]
+
+result = map(mytuple, mystr)
+print(tuple(result))
